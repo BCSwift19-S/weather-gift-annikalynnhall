@@ -56,7 +56,11 @@
                                         </connections>
                                     </barButtonItem>
                                     <barButtonItem style="plain" systemItem="flexibleSpace" id="S0Y-4F-lUL"/>
-                                    <barButtonItem systemItem="add" id="wyo-SE-Hd3"/>
+                                    <barButtonItem systemItem="add" id="wyo-SE-Hd3">
+                                        <connections>
+                                            <action selector="addBarButtonPressed:" destination="gOY-au-Rwp" id="C8W-q3-V6s"/>
+                                        </connections>
+                                    </barButtonItem>
                                 </items>
                             </toolbar>
                         </subviews>
