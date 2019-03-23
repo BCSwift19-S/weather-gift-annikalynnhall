@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		457B722A0C1820BF5C8602BD /* Pods_WeatherGift.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3A2860AC5B2563F75FFB16F4 /* Pods_WeatherGift.framework */; };
 		9A2941632246A35600BB023A /* DayWeatherCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A2941622246A35600BB023A /* DayWeatherCell.swift */; };
+		9A2941652246B14900BB023A /* TimeInterval+format.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A2941642246B14900BB023A /* TimeInterval+format.swift */; };
 		9A2E11232230142E0096C120 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A2E11222230142E0096C120 /* AppDelegate.swift */; };
 		9A2E11282230142E0096C120 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9A2E11262230142E0096C120 /* Main.storyboard */; };
 		9A2E112A2230142F0096C120 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9A2E11292230142F0096C120 /* Assets.xcassets */; };
@@ -23,6 +24,7 @@
 /* Begin PBXFileReference section */
 		3A2860AC5B2563F75FFB16F4 /* Pods_WeatherGift.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_WeatherGift.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		9A2941622246A35600BB023A /* DayWeatherCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DayWeatherCell.swift; sourceTree = "<group>"; };
+		9A2941642246B14900BB023A /* TimeInterval+format.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "TimeInterval+format.swift"; sourceTree = "<group>"; };
 		9A2E111F2230142E0096C120 /* WeatherGift.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WeatherGift.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		9A2E11222230142E0096C120 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		9A2E11272230142E0096C120 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -92,6 +94,7 @@
 				9A39E4D6223EC5100015C5F9 /* WeatherLocation.swift */,
 				9A2E113A223018F40096C120 /* PageVC.swift */,
 				9A2E1134223014B50096C120 /* DetailVC.swift */,
+				9A2941642246B14900BB023A /* TimeInterval+format.swift */,
 				9A2941622246A35600BB023A /* DayWeatherCell.swift */,
 				9A2E1138223017700096C120 /* ListVC.swift */,
 				9A39E4D8223ED6430015C5F9 /* Constants.swift */,
@@ -252,6 +255,7 @@
 				9A39E4D7223EC5100015C5F9 /* WeatherLocation.swift in Sources */,
 				9A2E1139223017700096C120 /* ListVC.swift in Sources */,
 				9A2E113B223018F40096C120 /* PageVC.swift in Sources */,
+				9A2941652246B14900BB023A /* TimeInterval+format.swift in Sources */,
 				9A2E11232230142E0096C120 /* AppDelegate.swift in Sources */,
 				9A2E1135223014B50096C120 /* DetailVC.swift in Sources */,
 				9A39E4D9223ED6430015C5F9 /* Constants.swift in Sources */,
